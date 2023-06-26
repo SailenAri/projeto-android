@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Geologica:wght@300;400&family=Orbitron:wght@400;700&family=Poppins:ital,wght@0,300;0,400;1,300;1,400&family=Share+Tech+Mono&display=swap');
+
+body {
+    font-family: 'Poppins', Helvetica, sans-serif;
+    margin: 0px;
+    background-color: rgb(12, 116, 59);
+
+    
+}
+
+header {
+    background-image: linear-gradient(to top, rgb(0, 80, 40), rgb(0, 226, 136));
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.356);
+    color: white;
+    width: 100%;
+}
+
+header > nav > h1 { 
+    text-align: center;
+    margin: 0px;
+    padding: 40px 20px 20px 20px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+header > nav > p {
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header > nav > p {
+    width: 80%;
+    margin: auto;
+}
+
+header > nav > nav#menu {
+    padding: 6px;
+    font-size: 18px;
+}
+
+header > nav > nav#menu > a:hover {
+    background-color: rgba(96, 177, 96, 0.384);
+    border: 0px;
+    border-radius: 8px;
+    color: rgb(160, 255, 160);
+    
+}
+
+header > nav > nav#menu > a {
+    width: 14px;
+    padding: 6px;
+    color: white;
+    text-decoration: none;
+    color: rgb(199, 255, 199);
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(7, 94, 7);
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(78, 148, 78);
+}
+main {
+    background-color: rgb(255, 255, 255);
+    max-width: 870px;
+    height: 100%;
+    text-align: justify;
+    margin: auto;
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.356);
+    border: 0px solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 0px 0px 5px 0px;
+    line-height: 1.1em;
+
+    
+}
+
+
+main > section#principal > p {
+    text-indent: 20px;
+    padding: 0px 25px 0px 25px;
+    
+
+}
+
+main > section#principal > h2 {
+    margin: 0px 20px 0px 20px;
+    padding: 25px 0px 0px 0px;
+    font-family: 'Share Tech Mono', sans-serif;
+    color: rgb(8, 100, 0);
+    font-size: 30px;
+}
+
+main > section#principal > h3 {
+    margin: 0px 20px 0px 20px;
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.404), rgb(255, 255, 255));
+    font-family: 'Share Tech Mono', sans-serif;
+    color: rgb(8, 100, 0);
+    font-size: 25px;
+}
+
+main > section#principal > img {
+    margin: auto;
+    display: flex; 
+
+}
+
+main > section#principal > picture > img {
+    margin: auto;
+    display: flex;  
+    width: 90%;
+}
+
+main > section#video {
+    background-color: rgb(0, 87, 12);
+    width: 100%;
+    text-align: justify;
+    margin: auto;
+
+   
+}
+main > section#video > iframe {
+    margin: auto;
+    display: flex;
+    padding: 30px;
+    position: relative;
+
+}
+
+main > section#final > p {
+    text-indent: 20px;
+    padding: 0px 25px 0px 25px;
+    
+}
+
+main > section#final > nav {
+    background-color: rgb(192, 255, 211);
+    padding: 20px;
+    width: 90%;
+    height: 50%px;
+    margin: 20px auto 20px;
+    text-indent: 20px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.24);
+    border: 0px solid;
+    border-radius: 20px;   
+}
+
+main > section#final > nav > h4 {
+    background-image: linear-gradient(to right, rgb(0, 70, 37), rgb(0, 109, 9));
+    color: white;
+    width:90%;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    border: 0px solid;
+    border-radius: 10px;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.411);
+
+}
+
+main > section#final > nav > ul > li {
+   margin: 0px 0px 0px 10px;
+}
+
+main > section#final > nav > ul {
+    list-style: disc;
+    float: left;
+    width: 50%;
+    height: 40%;
+    margin: 0px 0px 15px 0px;   
+    padding: 0px;     
+}
+
+main > section#final > nav > p {
+    margin-top: 20px;
+}
+
+footer > p {
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(0, 75, 0), rgb(0, 54, 24)) ;
+    margin: 0px;
+    color: white;
+    padding: 10px;
+}
+
+footer > p > a {
+    color: rgb(195, 255, 203);
+}
